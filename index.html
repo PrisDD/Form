@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- HEADER -->
+        <header class="header-container">
+            <div class="hd-logo">
+                <a href="#"><img class="hd-img-logo" src="./img/logo.png" alt="logo"></a>
+            </div>
+            <div class="hd-menu dropdown">
+                <a href="#" class="a-nav"><img onclick="myFunction()" class="hd-icon-menu dropbtn" src="./img/ic_menu_48px.png" alt="icon-menu"></a>
+                <nav class="header-nav" id="myDropdown">
+                    <a href="#" class="hd-link">about</a>
+                    <a href="#" class="hd-link">what we do</a>
+                    <a href="#" class="hd-link">project</a>
+                    <a href="#" class="hd-link">how it work with us</a>
+                </nav>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="banner-content">
+                <h1 class="h1">contact us</h1>
+                <span class="bn-span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+            </div>
+        </section>
+        <!-- MAIN -->
+        <main class="main-container">
+            <div class="mn-content">
+                <div class="mn-contact-container">
+                    <div class="mn-ct-content">
+                        <div>
+                            <img class="img-contact" src="./img/img-contact.png" alt="contact">
+                        </div>
+                        <div>
+                            <h3 class="h3">address</h3>
+                            <span class="mn-span">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</span>
+                        </div>
+                        <div>
+
+                            <div class="phone">
+                                <h3 class="h3">phone</h3>
+                                <img src="./img/ic_phone_24px.png" alt="phone" class="mn-icon-img">
+                                <a href="tel:+380664338771" class="mn-link">+38 (066 43 38 771)</a>
+                            </div>
+                            <div class="phone">
+                                <img src="./img/ic_phone_24px.png" alt="phone" class="mn-icon-img">
+                                <a href="tel:+380664338771" class="mn-link">+38 (066 43 38 771)</a>
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="wb">
+                                <h3 class="h3">online service</h3>
+                                <img src="./img/ic_language_24px.png" alt="wb" class="mn-icon-img2">
+                                <a href="https://bootstrap-4.ru/" class="mn-link">bootstrap.ru</a>
+                            </div>
+                            <div class="mail">
+                                <img src="./img/ic_email_24px.png" alt="email" class="mn-icon-img2">
+                                <a href="mailto:shotadzedd@gmail.com" class="mn-link">shotadzedd@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mn-form-container">
+                    <div class="mn-fm-content">
+                        <form method="POST" action="./test.html" class="mn-form">
+                            <h3 class="h3 h3-form">send us message</h3>
+                            <!-- Full name -->
+                            <label for="userName" class="form-label">Full Name</label>
+                            <span id="userNameMsg"></span>
+                            <input type="text" name="userName" placeholder="Your Name" data-val="\S" data-val-msg="Введите значение" data-val-msg-id="userNameMsg" class="form-control">
+                            <!-- Email -->
+                            <label for="emailMsg" class="form-label">Email</label>
+                            <span id="emailMsg"></span>
+                            <input type="text" name="email" placeholder="Your Email" data-val="\b[a-z0-9._]+@[a-z0-9.-]+\.[a-z]{2,4}\b" data-val-msg="Вы ввели не правильный email" data-val-msg-id="emailMsg" class="form-control">
+                            <!-- Message -->
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" class="form-control" id="message" placeholder="Your Message" cols="30" rows="3"></textarea>
+                            <!-- Submit -->
+                            <button type="submit" class="input-btn">Submit</button>
+                        </form>
+
+                        <!-- <form method="POST" action="./index.php" class="mn-form">
+                            <h3 class="h3 h3-form">send us message</h3>
+                            <label for="inputText" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="inputText" placeholder="Your Name" required>
+                            <label for="inputEmail" class="form-label">Email<span class="js-span" id="status"></span></label>
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Your Email" required pattern="shotadzedd@gmail.com">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" class="form-control" id="message" placeholder="Your Message" cols="30" rows="3"></textarea>
+                            <button type="button" class="input-btn">Submit</button>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+            <div class="mn-maps">
+                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.9007949043253!2d30.870595715052506!3d48.015626467626696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ce497547fdcec1%3A0x76b6d6105fceba6f!2z0YPQuy4g0JzQuNGC0YDQvtGE0LDQvdCwINCd0LXQtNC10LvQuNC90LAsIDI4LCDQn9C10YDQstC-0LzQsNC50YHQuiwg0J3QuNC60L7Qu9Cw0LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA1NTIwMA!5e0!3m2!1sru!2sua!4v1609242815160!5m2!1sru!2sua"
+                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footer-container">
+            <!-- <img class="ft-bg-img" src="./img/bg ft.png" alt="bgfooter"> -->
+            <div class="footer-content">
+                <div class="footer-row-1">
+                    <div class="team-container">
+                        <div class="ft-team">
+                            <h2 class="h2">Intersted to woek with our team?
+                            </h2>
+                            <span class="ft-span">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                        </div>
+                        <div class="ft-btn">
+                            <input type="button" value="Let’s Talk" class="input-btn-ft">
+                        </div>
+                    </div>
+                </div>
+                <hr class="ft-hr">
+                <div class="footer-row-2">
+                    <div class="footer-nav">
+                        <div class="ft-contact">
+                            <div class="ft-ul">
+                                <div class="footer-logo">
+                                    <img class="ft-logo" src="./img/logo ft.png" alt="logo">
+                                    <span class="ft-h3">Afrianska</span>
+                                </div>
+                                <div class="ft-add">
+                                    <img src="./img/A..png" alt="address" class="img-a">
+                                    <p class="ft-p"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="ft-tel">
+                                    <img src="./img/T..png" alt="tell" class="img-li">
+                                    <a href="tel:+380664338771" class="mn-link ft-link">+38 (066 43 38 771)</a>
+                                </div>
+                                <div class="ft-mail">
+                                    <img src="./img/E.png" alt="email" class="img-li">
+                                    <a href="mailto:shotadzedd@gmail.com" class="mn-link ft-link">shotadzedd@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ft-about">
+                            <h4 class="ft-h4">About US</h4>
+                            <nav class="ft-nav">
+                                <a href="#" class="footer-link">about</a>
+                                <a href="#" class="footer-link">what we do</a>
+                                <a href="#" class="footer-link">project</a>
+                                <a href="#" class="footer-link">how it work with us</a>
+                            </nav>
+                        </div>
+                        <div class="ft-follow">
+                            <h4 class="ft-h4">Follow US</h4>
+                            <nav class="ft-nav">
+                                <a href="https://www.instagram.com/?hl=ru" class="footer-link">instagram</a>
+                                <a href="https://www.facebook.com/" class="footer-link">facebook</a>
+                                <a href="https://www.linkedin.com/" class="footer-link">linkedIn</a>
+                                <a href="https://www.youtube.com/?gl=UA&hl=ru" class="footer-link">youtube</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="ft-copy">
+                    <span class="ft-span">2019 © Afrianska. All rights reserved.</span>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+<script src="./index.js"></script>
+
+</html>

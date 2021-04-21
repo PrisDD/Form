@@ -1,0 +1,190 @@
+/* 1080px */
+@media screen and (max-width:1080px){
+    /* MAIN */
+    .page-container{
+        max-width: 100%;
+    }
+    .mn-content {
+        grid-template-columns: 1fr;
+    }
+
+    .main-container{
+        max-width: 660px;
+        margin: 0 auto;
+    }
+
+    .mn-ct-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+
+    .mn-form-container{
+        justify-self: center;
+    
+    }
+
+    /* FOOTER */
+    .ft-btn{
+        justify-self: center; /* выравнивает вдоль оси строки */
+    
+    }
+    .footer-row-1{
+        padding-left: 24px;
+    }
+
+    .footer-row-2{
+        padding-left: 24px;
+    }
+    
+    .ft-copy{
+        padding-left: 24px;
+    }
+} 
+
+/* 800px */
+@media screen and (max-width:800px){
+    /* MAIN */
+    .main-container{
+        max-width: 460px;
+    }
+
+    .mn-form{
+        width: 328px;
+        border-radius: 10px;
+        box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+        padding: 46px;
+    
+    }
+
+    .form-control{
+        padding: 15px 0 15px 24px;
+    }
+
+    .input-btn{
+        margin-top: 52px;
+        padding: 23px 84px;
+    }
+
+    /* FOOTER */
+    .footer-container{
+        max-width: 670px;
+
+    }
+
+    .footer-content{
+        max-width: 573px;
+        
+    }
+
+    .footer-row-1{
+        padding-left: 24px;
+    }
+
+    .ft-btn{
+        padding-top: 40px;
+    }
+
+    .footer-row-2{
+        padding-left: 24px;
+    }
+    
+    .ft-copy{
+        padding-left: 24px;
+    }
+
+    .team-container{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-nav{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .ft-contact{
+        padding-bottom: 44px;
+    }
+    .ft-about{
+        padding-bottom: 44px;
+    }
+
+    .ft-follow{
+        padding-bottom: 44px;
+    }
+
+    .ft-h4{ 
+        padding-bottom: 24px;
+    }
+
+
+
+}
+
+/* 550px */
+@media screen and (max-width:550px){
+    .main-container{
+        max-width: 320px;
+    }
+
+    .mn-form{
+        width: 300px;
+        padding: 26px;
+        box-shadow: 5px 5px 20px rgba(16, 112, 177, 0.2);
+    
+    }
+
+    .form-control{
+        padding: 10px 0 10px 15px;
+    }
+
+    .input-btn{
+        margin-top: 52px;
+        padding: 15px 42px;
+        box-shadow: 5px 5px 20px rgba(16, 112, 177, 0.2);
+
+        
+        
+    }
+
+    .maps{
+        width: 100%;
+        min-height: 380px;
+    }
+
+}
+
+/* 400px */
+@media screen and (max-width:400px){
+    .main-container{
+        max-width: 290px;
+    }
+
+    .mn-form{
+        width: 250px;
+        padding: 16px;
+        box-shadow: 5px 5px 20px rgba(16, 112, 177, 0.2);
+    
+    }
+
+    .form-control{
+        padding: 10px 0 10px 15px;
+    }
+
+    .form-label{
+        padding: 20px 0 8px;
+    
+    }
+
+    .input-btn{
+        margin-top: 32px;
+        padding: 15px 42px;
+        box-shadow: 5px 5px 20px rgba(16, 112, 177, 0.2);
+
+        
+        
+    }
+
+}
