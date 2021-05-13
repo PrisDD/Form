@@ -61,7 +61,7 @@ function validateForm() {
     }
 
     if (invalid) {
-        alert("Допущены ошибки при заполнении формы.");
+        alert("Errors were made when filling out the form.");
         return false;
     }
 }

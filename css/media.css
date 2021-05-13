@@ -25,6 +25,10 @@
     
     }
 
+    .input-btn{
+        padding: 23px 84px;
+    }
+
     /* FOOTER */
     .ft-btn{
         justify-self: center; /* выравнивает вдоль оси строки */
